@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Ingressive-for-Good-Hackathon/front-end/static/css/main.6bac7f1c.css",
+    "main.js": "/Ingressive-for-Good-Hackathon/front-end/static/js/main.df6892da.js",
+    "static/media/waving.svg": "/Ingressive-for-Good-Hackathon/front-end/static/media/waving.5e32199d9a3a292d8d8a253b9f2886a1.svg",
+    "static/media/Google.svg": "/Ingressive-for-Good-Hackathon/front-end/static/media/Google.6b81325863a7bfe2925e6d6b0c00ff1e.svg",
+    "index.html": "/Ingressive-for-Good-Hackathon/front-end/index.html",
+    "static/media/access.svg": "/Ingressive-for-Good-Hackathon/front-end/static/media/access.20647e22f601d1dfb9ca7178f782c16c.svg",
+    "static/media/vuesax.svg": "/Ingressive-for-Good-Hackathon/front-end/static/media/vuesax.647d90633c0df011f1dfaeea03b49f60.svg",
+    "main.6bac7f1c.css.map": "/Ingressive-for-Good-Hackathon/front-end/static/css/main.6bac7f1c.css.map",
+    "main.df6892da.js.map": "/Ingressive-for-Good-Hackathon/front-end/static/js/main.df6892da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bac7f1c.css",
+    "static/js/main.df6892da.js"
+  ]
+}
