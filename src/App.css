@@ -4,8 +4,13 @@
   padding: 0;
 }
 
-.Form {
+.FormBody {
   background: #1363DF;
+}
+
+.Form {
+  background: url(./Icon/Frame.svg) no-repeat;
+  background-size: 350px;
   padding-top: 150px;
 }
 .Form .form_input {
@@ -47,6 +52,7 @@
   outline: none;
   border-radius: 5px;
   color: rgba(0, 0, 0, 0.5);
+  font-size: 0.8em;
   transition: 0.4s;
 }
 .Form .form_input form select:focus {
@@ -102,6 +108,8 @@
 }
 .Form .form_input form #password:valid ~ #btn_submit {
   background: #1363DF;
+}
+.Form .form_input form #password:valid ~ #btn_submit a {
   color: #fff;
 }
 .Form .form_input form .input_p {
@@ -124,6 +132,8 @@
   padding: 13px 0;
   border: none;
   border-radius: 5px;
+}
+.Form .form_input form button a {
   color: rgba(0, 0, 0, 0.2);
 }
 .Form .form_input form .google {
@@ -153,6 +163,8 @@
 }
 .Form .form_input form .form-button {
   background: #1363DF;
+}
+.Form .form_input form .form-button a {
   color: #fff;
 }
 .Form .form_input .access-img {
@@ -165,7 +177,10 @@
   border: none;
   border-radius: 5px;
   background: #1363DF;
+}
+.Form .form_input .access-btn a {
   color: #fff;
+  text-decoration: none;
 }
 
 .question {
@@ -254,6 +269,8 @@
 }
 .question form input:valid ~ #btn_submit {
   background: #1363DF;
+}
+.question form input:valid ~ #btn_submit a {
   color: #fff;
 }
 .question form button {
@@ -262,6 +279,9 @@
   padding: 13px 0;
   border: none;
   border-radius: 5px;
+}
+.question form button a {
+  text-decoration: none;
   color: rgba(0, 0, 0, 0.2);
 }
 .question .verification input {
@@ -282,21 +302,29 @@
 }
 .question .verification .last_put:valid ~ button {
   background: #1363DF;
+}
+.question .verification .last_put:valid ~ button a {
   color: #fff;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 700px) {
   body {
     background: #fcd02c;
   }
   .App {
-    max-width: 25%;
+    max-width: 60%;
     margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .App {
+    max-width: 25%;
   }
   .App .Form {
     margin: 25px 0;
   }
   .App .question {
     background: #fff;
+    margin: 25px 0;
   }
 }/*# sourceMappingURL=App.css.map */

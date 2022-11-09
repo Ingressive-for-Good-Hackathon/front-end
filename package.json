@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ifeanyiHM.github.io/Ingressive-for-Good-Hackathon/front-end",
+  "homepage": "https://Ingressive-for-Good-Hackathon.github.io/front-end",
   "name": "ingressive-for-good-hackathon",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.4",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webcam": "^3.2.1"
   },
   "scripts": {
     "predeploy": "npm run build",
