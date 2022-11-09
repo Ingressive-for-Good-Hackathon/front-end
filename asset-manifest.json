@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/front-end/static/css/main.bca9ddee.css",
-    "main.js": "/front-end/static/js/main.0adb48fe.js",
-    "static/media/waving.svg": "/front-end/static/media/waving.5e32199d9a3a292d8d8a253b9f2886a1.svg",
-    "static/media/Frame.svg": "/front-end/static/media/Frame.1b5f28cf660c5277210c.svg",
-    "static/media/vuesheild.svg": "/front-end/static/media/vuesheild.70374063d622a88f907c6f13dc45d735.svg",
-    "static/media/Google.svg": "/front-end/static/media/Google.6b81325863a7bfe2925e6d6b0c00ff1e.svg",
-    "static/media/access.svg": "/front-end/static/media/access.20647e22f601d1dfb9ca7178f782c16c.svg",
-    "static/media/vuesax.svg": "/front-end/static/media/vuesax.647d90633c0df011f1dfaeea03b49f60.svg",
-    "index.html": "/front-end/index.html",
-    "main.bca9ddee.css.map": "/front-end/static/css/main.bca9ddee.css.map",
-    "main.0adb48fe.js.map": "/front-end/static/js/main.0adb48fe.js.map"
+    "main.css": "/Hackathon_Project.git/static/css/main.c1da5b33.css",
+    "main.js": "/Hackathon_Project.git/static/js/main.8ce665e6.js",
+    "static/media/waving.svg": "/Hackathon_Project.git/static/media/waving.5e32199d9a3a292d8d8a253b9f2886a1.svg",
+    "static/media/Frame.svg": "/Hackathon_Project.git/static/media/Frame.1b5f28cf660c5277210c.svg",
+    "static/media/open.svg": "/Hackathon_Project.git/static/media/open.d11c7c10ca4a766d219bf75641a92356.svg",
+    "static/media/close.svg": "/Hackathon_Project.git/static/media/close.5681470fba613d9231749eb80748295c.svg",
+    "static/media/vuesheild.svg": "/Hackathon_Project.git/static/media/vuesheild.70374063d622a88f907c6f13dc45d735.svg",
+    "static/media/Google.svg": "/Hackathon_Project.git/static/media/Google.6b81325863a7bfe2925e6d6b0c00ff1e.svg",
+    "static/media/access.svg": "/Hackathon_Project.git/static/media/access.20647e22f601d1dfb9ca7178f782c16c.svg",
+    "static/media/vuesax.svg": "/Hackathon_Project.git/static/media/vuesax.647d90633c0df011f1dfaeea03b49f60.svg",
+    "index.html": "/Hackathon_Project.git/index.html",
+    "static/media/arrowLeft.svg": "/Hackathon_Project.git/static/media/arrowLeft.dcf12a44839b198ef817120c9317a5be.svg",
+    "main.c1da5b33.css.map": "/Hackathon_Project.git/static/css/main.c1da5b33.css.map",
+    "main.8ce665e6.js.map": "/Hackathon_Project.git/static/js/main.8ce665e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.bca9ddee.css",
-    "static/js/main.0adb48fe.js"
+    "static/css/main.c1da5b33.css",
+    "static/js/main.8ce665e6.js"
   ]
 }
