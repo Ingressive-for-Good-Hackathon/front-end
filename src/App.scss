@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Form {
+    background: #1363DF;
+    padding-top: 150px;
+
+    .form_input{
+        padding: 10% 5% 8% 5%;
+        text-align: center;
+        background: #fff;
+        border-radius: 15px 15px 0 0;
+
+        h1{
+            font-size: 1.3em;
+        }
+
+        p{
+            padding: 15px 0 40px 0;
+            font-weight: 600;
+            opacity: 0.7;
+        }
+
+        form{
+            position: relative;
+
+            input{
+                display: block;
+                position: relative;
+                width: 100%;
+                margin: 20px 0 40px 0;
+                padding: 11px;
+                border: 2px solid rgb(0, 0, 0, 0.2);
+                border-radius: 5px;
+                outline: none;
+                box-sizing: border-box;
+
+                &:focus, &:valid{
+                    border: 2px solid #1363DF;
+                }
+            }
+
+            select{
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 2px solid rgb(0, 0, 0, 0.2);
+                outline: none;
+                border-radius: 5px;
+                color: rgb(0, 0, 0, 0.5);
+                transition: 0.4s;
+
+                &:focus{
+                    border: 2px solid #1363DF;
+                    color: rgb(0, 0, 0);
+                }
+            }
+
+            label{
+                position: absolute;
+                z-index: 1;
+                font-size: 0.9em;
+                opacity: 0.7;
+                left: 12px;
+                transition: 0.4s;
+            }
+            .id-number{
+                display: none;
+
+            }
+            .phone-number{
+                top: 80px;
+            }
+            .password{
+                top: 160px;
+            }
+
+            select:focus ~ .id-number{
+                display: block;
+                top: -8px;
+                color: #1363DF;
+                font-weight: bold;
+                background: #fff;
+                padding: 0 6px;
+                opacity: 1;
+                font-size: 0.7em;
+            }
+
+            input:focus ~ .phone-number,
+            input:valid ~ .phone-number{
+                top: 63px;
+                color: #1363DF;
+                font-weight: bold;
+                background: #fff;
+                padding: 0 6px;
+                opacity: 1;
+                font-size: 0.7em;
+            }
+
+            input:focus ~ .password,
+            input:valid ~ .password{
+                top: 145px;
+                color: #1363DF;
+                font-weight: bold;
+                background: #fff;
+                padding: 0 6px;
+                opacity: 1;
+                font-size: 0.7em;
+            }
+
+            #password:valid ~ #btn_submit{
+                background: #1363DF;
+                color: #fff;
+            }
+    
+            .input_p{
+                padding: 0;
+                font-size: 0.9em;
+                font-weight: 400;
+                text-align: start;
+                margin-bottom: 20px;
+            }
+    
+            .pass_word{
+                position: absolute;
+                right: 10px;
+                top: 162px;
+                z-index: 999;
+                cursor: pointer;
+            }
+
+    
+            button{
+                width: 100%;
+                margin: 20px 0;
+                padding: 13px 0;
+                border: none;
+                border-radius: 5px;
+                color: rgb(0, 0, 0, 0.2);
+            }
+    
+            .google{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                column-gap: 5px;
+                padding: 10px 0;
+                border: 1px solid #1363DF;
+    
+                span{
+                    color: #1363DF;
+                    font-weight: 700;
+                    font-size: 1.1em;
+                }
+            }
+    
+            a{
+                text-decoration: none;
+                color: #1363DF;
+            }
+
+           
+        }
+
+        .form2{
+            margin-bottom: 150px;
+
+            a{
+                text-decoration: none;
+                color: #1363DF;
+            }
+        }
+
+        form{
+            .form-button{
+             background: #1363DF;
+             color: #fff;
+            }
+        }
+
+        .access-img{
+            padding: 20px 0 200px 0;
+        }
+
+        .access-btn{
+            width: 100%;
+            margin: 20px 0;
+            padding: 13px 0;
+            border: none;
+            border-radius: 5px;
+            background: #1363DF;
+            color: #fff;
+
+        }
+    }
+}
+
+.question{
+    padding: 10% 5% 8% 5%;
+    text-align: center;
+
+    h1{
+        font-size: 1.3em;
+    }
+
+    p{
+        padding: 15px 0 40px 0;
+        font-weight: 600;
+        opacity: 0.7;
+
+        a{
+            text-decoration: none;
+            color: #1363DF;
+        }
+    }
+
+    form{
+        position: relative;
+
+        select{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid rgb(0, 0, 0, 0.2);
+            outline: none;
+            border-radius: 5px;
+            color: rgb(0, 0, 0, 0.5);
+            transition: 0.4s;
+    
+            &:focus{
+                border: 2px solid #1363DF;
+                color: rgb(0, 0, 0);
+            }
+        }
+    
+        #security_ans{
+            display: block;
+            position: relative;
+            width: 100%;
+            margin: 20px 0 150px 0;
+            padding: 11px;
+            border: 2px solid rgb(0, 0, 0, 0.2);
+            border-radius: 5px;
+            outline: none;
+            box-sizing: border-box;
+    
+            &:focus, &:valid{
+                border: 2px solid #1363DF;
+            }
+        }
+
+        label{
+            position: absolute;
+            z-index: 20;
+            font-size: 0.9em;
+            opacity: 0.7;
+            left: 12px;
+            transition: 0.4s;
+        }
+
+        .id_number{
+            top: -11px;
+            display: none;
+            transition: 0.4s;
+        }
+
+        .security_ans{
+            top: 80px;
+        }
+
+        select:focus ~ .id_number,
+        select:valid ~ .id_number{
+            display: block;
+            top: -8px;
+            color: #1363DF;
+            font-weight: bold;
+            background: #fff;
+            padding: 0 6px;
+            opacity: 1;
+            font-size: 0.7em;
+        }
+
+        input:focus ~ .security_ans,
+        input:valid ~ .security_ans{
+            top: 64px;
+            color: #1363DF;
+            font-weight: bold;
+            background: #fff;
+            padding: 0 6px;
+            opacity: 1;
+            font-size: 0.7em;
+        }
+
+        input:valid ~ #btn_submit{
+            background: #1363DF;
+            color: #fff;
+        }
+    
+        button{
+            width: 100%;
+            margin: 20px 0;
+            padding: 13px 0;
+            border: none;
+            border-radius: 5px;
+            color: rgb(0, 0, 0, 0.2);
+        }
+
+    }
+
+    .verification{
+        input{
+            width: 40px;
+            display: inline;
+            margin: 20px 7px 70px 7px;
+            padding: 11px;
+            border: 2px solid rgb(0, 0, 0, 0.2);
+            border-radius: 5px;
+            outline: none;
+            box-sizing: border-box;
+
+            &:focus, &:valid{
+                border-color: #1363DF;
+            }
+        }
+
+        p{
+            height: 190px;
+        }
+
+        .last_put:valid ~ button{
+            background: #1363DF;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and  (min-width: 900px) {
+
+    body{
+        background: #fcd02c;
+    }
+
+    .App{
+        max-width: 25%;
+        margin: 0 auto;
+
+        .Form{
+            margin: 25px 0;
+        }
+
+        .question{
+            background: #fff;
+        }
+    }
+}
