@@ -2,7 +2,7 @@ import google from "./Icon/Google.svg"
 import vue from "./Icon/vuesax.svg"
 import { useState } from "react";
 import vuesheild from "./Icon/vuesheild.svg"
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Form = () => {
 
@@ -43,7 +43,7 @@ const Form = () => {
 
                         <img className="pass_word" src={icon} onClick={handleToggle} alt="visible" />
 
-                        <button type="submit" id="btn_submit">< Link to="/Form2">Proceed</ Link></button>
+                        <button type="submit" id="btn_submit">< a href="/Form2">Proceed</a></button>
                         <p>or login with Google</p>
                         <button className="google"><img src={google} alt="google" /> <span>Google</span></button>
                         <p>Already a user? <a href="www.emtpty.io">Log in</a></p>

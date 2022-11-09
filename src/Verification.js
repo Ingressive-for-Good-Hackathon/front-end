@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Verification = () => {
     return ( 
@@ -12,8 +12,8 @@ const Verification = () => {
                 <input type="text" required maxLength={1}/>
                 <input className="last_put" type="text" required maxLength={1}/>
 
-                <p>Didnn't receive OTP? <a href="">Resend OTP</a></p>
-                <button><Link to="./Access">Submit</Link></button>
+                <p>Didnn't receive OTP? <a href="#">Resend OTP</a></p>
+                <button><a href="./Access">Submit</a></button>
             </form>
         </div>
      );

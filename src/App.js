@@ -25,7 +25,7 @@ function App() {
     <Router>
       <div className="App">
        <Switch>
-          <Route path="/Ingressive-for-Good-Hackathon/front-end">
+          <Route exact path="/">
             <Form />
           </Route>
           <Route path="/Form2">

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 
 const Question = () => {
     return ( 
@@ -19,7 +19,7 @@ const Question = () => {
                 
                 <label className="security_ans" htmlFor="security_ans">Answer</label>
 
-                <button type="submit" id="btn_submit"><Link to="./Verification">Proceed</Link></button>
+                <button type="submit" id="btn_submit"><a href="./Verification">Proceed</a></button>
             </form>
         </div>
      );
