@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+input, button, select, a {
+  cursor: pointer;
+}
+
 .FormBody {
   background: #1363DF;
 }
@@ -305,6 +309,28 @@
 }
 .question .verification .last_put:valid ~ button a {
   color: #fff;
+}
+
+.expression {
+  height: 85vh;
+  background: #fff;
+  margin: 16px 0;
+  text-align: center;
+  position: relative;
+  padding-top: 60px;
+}
+.expression h1 {
+  font-size: 1.5em;
+  padding-bottom: 50px;
+}
+.expression p {
+  font-weight: 500;
+  padding-bottom: 100px;
+}
+.expression .absolute {
+  position: absolute;
+  top: 40px;
+  left: 16px;
 }
 
 @media screen and (min-width: 700px) {
